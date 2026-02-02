@@ -1,0 +1,2 @@
+Deployment 
+A critical resource in K8 which is responsible for scaling and healing via a controller called the Replica set. Replica set maintain a minimum set of pods all the time(Scaling) and replace pods when the existing one crashes (healing).
