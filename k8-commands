@@ -1,0 +1,15 @@
+Useful and important K8 commands
+
+kubectl config view - provides cluster, context details 
+
+kubectl config current-context - provides details of the current context
+
+kubectl config use-context "context name" : to swtich between context 
+
+aws eks update-kubeconfig --region "region name" --name "name of the cluster" - adding cluster to kubeconfig file
+
+kubectl apply -f serviceaccount.yml - to create custom service account
+
+kubectl get sa - to get the list of sa accounts 
+
+kubectl apply -f complete-deploy.yml - to deply the app in k8
