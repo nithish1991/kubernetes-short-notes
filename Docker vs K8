@@ -1,0 +1,16 @@
+## What is Docker, and what problems does it solve?
+
+One of the biggest problems Docker solves in DevOps is the well-known **"It works on my machine"** issue. This typically occurs when a developer tells the QA team that an application works perfectly on their machine, but the QA team is unable to run it successfully in their own environment. The root cause is usually differences in operating systems, libraries, dependencies, or runtime configurations.
+
+Docker addresses this problem by packaging an application along with all its dependencies into a **Docker image**. This image can then be executed as a **container** on any machine that has Docker installed, regardless of the underlying operating system or environment. This ensures consistency across development, testing, and production environments, making application deployment far more reliable.
+
+However, Docker also has its limitations. Containers are **ephemeral (short-lived)** by nature, meaning they can stop or be recreated at any time. Docker alone does not provide advanced container management features such as:
+
+* Service discovery
+* Self-healing
+* Automatic scaling
+* High availability
+* Load balancing
+* API gateway integration
+
+To overcome these limitations, **container orchestration platforms** such as **Kubernetes** were introduced. Kubernetes automates the deployment, scaling, networking, and management of containerized applications, providing the enterprise-grade capabilities required for modern cloud-native applications. Its introduction significantly transformed DevOps by enabling organizations to run containers reliably at scale.
