@@ -1,0 +1,14 @@
+### Docker compose 
+
+Single yaml file with all the docker configuration to run the multiple containers (applications) in the environment
+
+command : docker compose up or docker compose down
+
+### Kubernetes
+
+The kuberenetes solves a different problem which is to manage the docker containers or to ochestrate the containers which also provides addition fuctions such as 
+* service discovery
+* clustering 
+* HA 
+* LB 
+* API Gateway
